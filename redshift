@@ -1,0 +1,9 @@
+Task 1
+Create ubuntu machine on ec2 with your keypair
+
+==============================================================================
+Commands
+sudo -i
+apt-get update -y
+sudo apt-get install -y postgresql-client
+psql --version
